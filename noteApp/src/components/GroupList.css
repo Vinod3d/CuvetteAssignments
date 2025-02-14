@@ -1,0 +1,27 @@
+.group-list-container {
+    width: 200px;
+    margin-right: 20px;
+  }
+  
+  .group-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .group-list li {
+    padding: 10px;
+    background-color: #e0e0e0;
+    margin-bottom: 5px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+  }
+  
+  .group-list li:hover {
+    background-color: #d0d0d0;
+  }
+  
+  .group-list li.active {
+    background-color: #c0c0c0;
+  }
+  

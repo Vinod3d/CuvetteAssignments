@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Single+Day&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root{
+  --primary-font: "DM Sans", sans-serif;
+  --secondary-font: "Single Day", cursive;
+}
+
+.font1{
+  font-family: var(--primary-font);
+}
+
+.font2{
+  font-family: var(--secondary-font);
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: var(--primary-font);
+}
